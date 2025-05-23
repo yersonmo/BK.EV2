@@ -1,12 +1,20 @@
-package com.holamundo.ejemplo.holamundo.entity;
+package com.mainapp.mainapp.entity;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "curso") 
 public class Curso {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String nombre;
     private String descripcion;
     private int duracion;
 
-    // Constructor vacío (obligatorio para Spring)
+    // Constructor vacío
     public Curso() {}
 
     // Constructor con parámetros
@@ -49,5 +57,4 @@ public class Curso {
     public void setDuracion(int duracion) {
         this.duracion = duracion;
     }
-
 }
