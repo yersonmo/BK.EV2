@@ -14,7 +14,7 @@ public class Alumno {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.edad = edada;
+        this.edad = edad;
     }
 
     // Getters y Setters
