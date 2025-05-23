@@ -1,13 +1,13 @@
-package com.holamundo.ejemplo.holamundo;
+package com.mainapp.mainapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HolamundoApplication {
+public class MainappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HolamundoApplication.class, args);
+		SpringApplication.run(MainappApplication.class, args);
 	}
 
 }
